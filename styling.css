@@ -29,7 +29,7 @@
     }
 
     body {
-        padding: 20% 0;
+        padding: 7% 0;
         background: #6c32c9;
         background-image: radial-gradient(transparent 65%, rgba(0, 0, 0, 0.5));
     }
@@ -42,12 +42,22 @@
         transform: translate3d(-50%, -50%, 0);
     }
 
+    @media only screen and (max-width: 600px) {
+        body {
+            padding: 20% !important;
+        }
+    }
+
     #div-center {
         text-align: center;
     }
 
     input {
         display: none;
+    }
+
+    .pad {
+        padding: 5%;
     }
 
     label {
@@ -83,7 +93,7 @@
         left: 0;
         background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/172299/bubbles-mask.gif);
         mix-blend-mode: overlay;
-        opacity: 0.5;
+        opacity: 1;
     }
 
     span {
