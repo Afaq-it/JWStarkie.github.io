@@ -1,6 +1,5 @@
     body {
         font-family: 'Poppins', sans-serif;
-        background-color: black
     }
 
     .w3-row-padding img {
@@ -30,7 +29,7 @@
 
     body {
         padding: 7% 0;
-        background: #6c32c9;
+        background: #AA7942;
         background-image: radial-gradient(transparent 65%, rgba(0, 0, 0, 0.5));
     }
 
@@ -76,7 +75,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        background: linear-gradient(to bottom, #ffffff 10%, #5f2789);
+        background: linear-gradient(to bottom, #ffffff 10%, #845d32);
         height: 100%;
         width: 0%;
         animation: grow 2s forwards;
