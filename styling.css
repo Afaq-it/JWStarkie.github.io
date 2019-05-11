@@ -30,7 +30,9 @@
     body {
         padding: 7% 0;
         background: #AA7942;
-        background-image: radial-gradient(transparent 65%, rgba(0, 0, 0, 0.5));
+        background-image:
+            radial-gradient(transparent, #AA7942 85%), url('https://caitflanders.com/wp-content/uploads/2018/05/daughter-hard-work.jpg');
+        background-size: cover;
     }
 
     #container {
