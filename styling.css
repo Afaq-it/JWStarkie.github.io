@@ -114,3 +114,9 @@
     span:last-child {
         float: right;
     }
+
+    .responsive-font {
+        font-size: 2.5em;
+    }
+
+
