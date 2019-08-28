@@ -31,8 +31,14 @@
         padding: 7% 0;
         background: #AA7942;
         background-image:
-            radial-gradient(transparent, #AA7942 85%), url('https://caitflanders.com/wp-content/uploads/2018/05/daughter-hard-work.jpg');
+            radial-gradient(transparent, #AA7942 80%), url('/img/image-1.jpg');
         background-size: cover;
+    }
+
+    #bg-col {
+        background-color: #AA7942;
+        border: 5px solid #AA7942;
+        border-radius: 5px;
     }
 
     #container {
@@ -97,7 +103,7 @@
         opacity: 1;
     }
 
-    span {
+    #container span {
         display: inline-block;
         color: white;
         font-size: 1rem;
@@ -107,11 +113,11 @@
         margin-top: 0.7rem;
     }
 
-    span:first-child {
+    #container span:first-child {
         float: left;
     }
 
-    span:last-child {
+    #container span:last-child {
         float: right;
     }
 
