@@ -4,7 +4,7 @@
 
 # Description
 
-This project forks from [https://github.com/tbakerx/react-resume-template](https://github.com/tbakerx/react-resume-template), I made some modifications and adjustments, thanks to the [author](https://github.com/tbakerx).
+This project forks from [https://github.com/nordicgiant2/react-nice-resume](https://github.com/nordicgiant2/react-nice-resume), I made some modifications and adjustments, and here we are.
 
 # Run Project
 
