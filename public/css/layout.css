@@ -491,6 +491,9 @@ ul#nav li.current a {
   display: block;
   cursor: pointer;
 }
+.portfolio-image {
+  height: 125px !important;
+}
 
 /* overlay */
 .portfolio-item .item-wrap .overlay {
