@@ -113,7 +113,7 @@
       },
       {
         "title":"Excel to PDF VBA",
-        "category":"Automating the creation of PDF files from rows in an Excel spreadsheet.",
+        "category":"Automating the creation of PDF files from rows in an Excel workbook.",
         "image":"excel.png",
         "url":"https://github.com/JWStarkie/Excel-to-Word-VBA"
       },
