@@ -1,4 +1,4 @@
-# React Nice Resume :page_with_curl:
+# React Resume Website
 
 ### [LIVE DEMO](https://jwstarkie.github.io)
 
