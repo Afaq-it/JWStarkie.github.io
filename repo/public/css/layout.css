@@ -15,6 +15,7 @@
    g. Testimonials Section
    h. Contact Section
    i. Footer
+   j. PDF section
 
 ===================================================================== */
 
@@ -1155,4 +1156,13 @@ footer .social-links li:first-child {
 }
 .github-btn {
   background-color: #364049 !important;
+}
+
+/* ------------------------------------------------------------------ */
+/* j. PDF Section
+/* ------------------------------------------------------------------ */
+
+.pdflayout {
+  width: 100% !important;
+  height: 100vh;
 }

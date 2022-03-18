@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import Fade from "react-reveal";
 
 class About extends Component {
@@ -9,7 +10,6 @@ class About extends Component {
     const bio = this.props.data.bio;
     const city = this.props.data.address.city;
     const state = this.props.data.address.state;
-    const cvDownload = this.props.data.cvDownload;
 
     return (
       <section id="about">
@@ -36,13 +36,15 @@ class About extends Component {
                     <br />
                   </p>
                 </div>
-                <div className="columns download">
-                  <p>
-                    <a href={cvDownload} className="button">
-                      <i className="fa fa-download"></i>Download CV
-                    </a>
-                  </p>
-                </div>
+
+                <Link to="/cv" target="_blank">
+                  <div className="columns download">
+                    <p className="button">
+                      <i className="fa fa-external-link" />
+                      Download CV
+                    </p>
+                  </div>
+                </Link>
               </div>
             </div>
           </div>

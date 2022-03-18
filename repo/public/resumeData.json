@@ -1,127 +1,133 @@
 {
   "main": {
     "title": "Meet Jo Starkie",
-    "name":"Jo Starkie",
-    "description":"I am a Cloud Solution Architect at Microsoft and an aspiring Software Engineer. Welcome to my site, I hope you enjoy your stay.",
-    "image":"profilepic.jpg",
-    "bio":"I put my all into my projects in life and people can count on me to be fair and just, as I deliver on my promises. I jump at opportunities where I can combine my love for technology and innovation with my passion for inspiring the next generation with a career in S.T.E.M. I thoroughly enjoy mentoring others to help support and stretch their way of thinking. I hope to help others reach their potential and provide feedback in the process to ensure I'm helping the mentee achieve their goals. My personality type is INFP-T (if you're interested)!",
-    "contactmessage":"Feel free to reach out, I'll be more than happy to chat and help where I can. I'd love to hear from you.",
-    "email": "youremailhere@gmail.com", 
-    "github":"https://github.com/JWStarkie",
-    "linkedin":"https://www.linkedin.com/in/jostarkie",
-    "address":{
-      "city":"London",
-      "state":"United Kingdom"
+    "name": "Jo Starkie",
+    "description": "I am a Software Engineer in the Microsoft Cloud for Industry and Global Expansion Team! Welcome to my site, I hope you enjoy your stay.",
+    "image": "profilepic.jpg",
+    "bio": "I put my all into my projects in life and people can count on me to be fair and just, as I deliver on my promises. I jump at opportunities where I can combine my love for technology and innovation with my passion for inspiring the next generation with a career in S.T.E.M. I thoroughly enjoy mentoring others to help support and stretch their way of thinking. I hope to help others reach their potential and provide feedback in the process to ensure I'm helping the mentee achieve their goals. My personality type is INFP-T (if you're interested)!",
+    "contactmessage": "Feel free to reach out via any of my social medias below, I'll be more than happy to chat and help where I can. I'd love to hear from you.",
+    "email": "youremailhere@gmail.com",
+    "github": "https://github.com/JWStarkie",
+    "linkedin": "https://www.linkedin.com/in/jostarkie",
+    "address": {
+      "city": "London",
+      "state": "United Kingdom"
     },
     "website": "https://jwstarkie.github.io",
-    "cvDownload":"https://drive.google.com/file/d/1DotjF44FbJjv9tDs78J0DqmCZ04eNxWQ/view",
-    "social":[
+    "cvDownload": "https://drive.google.com/file/d/1DotjF44FbJjv9tDs78J0DqmCZ04eNxWQ/view",
+    "social": [
       {
-        "name":"twitter",
-        "url":"https://twitter.com/j0_c0des",
-        "className":"fa fa-twitter"
+        "name": "twitter",
+        "url": "https://twitter.com/j0_c0des",
+        "className": "fa fa-twitter"
       },
       {
-        "name":"linkedin",
-        "url":"https://linkedin.com/in/jostarkie",
-        "className":"fa fa-linkedin"
+        "name": "linkedin",
+        "url": "https://linkedin.com/in/jostarkie",
+        "className": "fa fa-linkedin"
       },
       {
-        "name":"github",
-        "url":"https://github.com/JWStarkie",
-        "className":"fa fa-github"
+        "name": "github",
+        "url": "https://github.com/JWStarkie",
+        "className": "fa fa-github"
       },
       {
-        "name":"carrd",
-        "url":"https://jostarkie.carrd.co/",
-        "className":"fa fa-briefcase"
+        "name": "carrd",
+        "url": "https://jostarkie.carrd.co/",
+        "className": "fa fa-briefcase"
       }
     ]
   },
-  "resume":{
-    "skillmessage":"Here's a quick breakdown of some of the languages I've worked with. Please feel free to check out my GitHub page to see more.",
-    "education":[
+  "resume": {
+    "skillmessage": "Here's a quick breakdown of some of the languages I've worked with. Please feel free to check out my GitHub page to see more.",
+    "education": [
       {
-        "school":"Brunel University London",
-        "degree":"BSc in Computer Science with (Artificial Intelligence)",
-        "graduated":"July 2020",
-        "description":"Awarded Undergraduate Academic Excellence Scholarship for 4 years – Received the Computer Science Department Award for achieving the highest GPA in the cohort... Modules include Algorithms and their Applications, Cyber Security, Data and Information, Logic and Computation, Software Development and Management, Software Engineering, Usability Engineering"
+        "school": "Brunel University London",
+        "degree": "BSc in Computer Science with (Artificial Intelligence)",
+        "graduated": "July 2020",
+        "description": "Awarded Undergraduate Academic Excellence Scholarship for 4 years – Received the Computer Science Department Award for achieving the highest GPA in the cohort... Modules include Algorithms and their Applications, Cyber Security, Data and Information, Logic and Computation, Software Development and Management, Software Engineering, Usability Engineering"
       }
     ],
-    "work":[
+    "work": [
       {
-        "company":"Microsoft",
-        "title":"Data & Analytics Cloud Solution Architect",
-        "years":"September 2020 - Present",
-        "description":"• Develops Infrastructure as code packages, as stretch projects, to accelerate the journey to proof of concept and exploration. Utilises project management tools such as GitHub Projects and Azure DevOps to collaborate with colleagues.• Evangelises and educates colleagues on data governance best practices across business areas and accelerating customer engagements as a UK Purview champ and subject matter expert.• Driving customer success as a trusted and strategic technical advisor, guiding customers on the architecture and adoption of modern data warehousing and data governance technologies.• Working closely with Microsoft engineering and research teams to share field experience with products and shape future developments acting as an intermediary in the customer feedback loop.• Analyses customer business requirements and problem statements to produce architecture on cloud based digital solutions and provide leadership through influence to bring value to customers."
+        "company": "Microsoft",
+        "title": "Software Engineer",
+        "years": "January 2022 - Present",
+        "description": "• I'm currently working in the Industry ISV Engineering and Architecture team. More information to come, watch this space ... "
       },
       {
-        "company":"LD Training",
-        "title":"IT Consultant",
-        "years":"July 2015 - February 2020",
-        "description":"• Developed and maintained the virtual platform that directly resulted in new admission leads.• Modified the Content Management System (CMS) provided structure to manage the changing requirements of the website, using HTML and CSS languages.• Producing marketing materials using Photoshop and Microsoft Publisher software to raise awareness of the company with its clients.• Adhering to deadlines on the projects being worked on enabling me to advance my time management skills.• Offering practical solutions and ideas in order to meet the company's requirements for the website and overall business needs.• Trusted member of staff – worked remotely from home further developing my time management, self-motivation and discipline skills."
+        "company": "Microsoft UK",
+        "title": "Data & Analytics Cloud Solution Architect",
+        "years": "September 2020 - January 2022",
+        "description": "• Develops Infrastructure as code packages, as stretch projects, to accelerate the journey to proof of concept and exploration. Utilises project management tools such as GitHub Projects and Azure DevOps to collaborate with colleagues.• Evangelises and educates colleagues on data governance best practices across business areas and accelerating customer engagements as a UK Purview champ and subject matter expert.• Driving customer success as a trusted and strategic technical advisor, guiding customers on the architecture and adoption of modern data warehousing and data governance technologies.• Working closely with Microsoft engineering and research teams to share field experience with products and shape future developments acting as an intermediary in the customer feedback loop.• Analyses customer business requirements and problem statements to produce architecture on cloud based digital solutions and provide leadership through influence to bring value to customers."
       },
       {
-        "company":"Elanco",
-        "title":"Commercial IT Business Integrator",
-        "years":"July 2018 - July 2019",
-        "description":"• Used the JavaScript frameworks ReactJS & NodeJS to develop and successfully deliver the global Elanco Students website, that was instrumental in attracting future talent to the student programme.• Designed and implemented an interface between a Salesforce system and Oracle database, resulting in large savings for the affiliate's reporting activities and a new foundation for further systems to be built on.• Exercised my skills in Microsoft Flow, PowerApps and SharePoint platforms to build and automate a tracker tool for the UK & Ireland Affiliate.• Proactively improved the performance of the portal by increasing the Google Lighthouse and SEO Audits with Progressive Web Application functionality and further accessibility considerations.• Increased team productivity by facilitating the delivery of projects as a Scrum Master in Agile Scrum methodology within my development teams.• Successfully managed my project teams using my gained experience with the Atlassian JIRA DevOps tool and Confluence Collaboration software."
+        "company": "LD Training",
+        "title": "IT Consultant",
+        "years": "July 2015 - February 2020",
+        "description": "• Developed and maintained the virtual platform that directly resulted in new admission leads.• Modified the Content Management System (CMS) provided structure to manage the changing requirements of the website, using HTML and CSS languages.• Producing marketing materials using Photoshop and Microsoft Publisher software to raise awareness of the company with its clients.• Adhering to deadlines on the projects being worked on enabling me to advance my time management skills.• Offering practical solutions and ideas in order to meet the company's requirements for the website and overall business needs.• Trusted member of staff – worked remotely from home further developing my time management, self-motivation and discipline skills."
+      },
+      {
+        "company": "Elanco UK",
+        "title": "Commercial IT Business Integrator",
+        "years": "July 2018 - July 2019",
+        "description": "• Used the JavaScript frameworks ReactJS & NodeJS to develop and successfully deliver the global Elanco Students website, that was instrumental in attracting future talent to the student programme.• Designed and implemented an interface between a Salesforce system and Oracle database, resulting in large savings for the affiliate's reporting activities and a new foundation for further systems to be built on.• Exercised my skills in Microsoft Flow, PowerApps and SharePoint platforms to build and automate a tracker tool for the UK & Ireland Affiliate.• Proactively improved the performance of the portal by increasing the Google Lighthouse and SEO Audits with Progressive Web Application functionality and further accessibility considerations.• Increased team productivity by facilitating the delivery of projects as a Scrum Master in Agile Scrum methodology within my development teams.• Successfully managed my project teams using my gained experience with the Atlassian JIRA DevOps tool and Confluence Collaboration software."
       }
     ],
-    "skills":[
+    "skills": [
       {
-        "name":"JavaScript",
-        "level":"75%"
+        "name": "JavaScript",
+        "level": "75%"
       },
       {
-        "name":"PowerShell",
-        "level":"65%"
+        "name": "PowerShell",
+        "level": "65%"
       },
       {
-        "name":"ReactJs",
-        "level":"50%"
+        "name": "ReactJs",
+        "level": "50%"
       },
       {
-        "name":"Java",
-        "level":"60%"
+        "name": "Java",
+        "level": "50%"
       },
       {
-        "name":"Git",
-        "level":"80%"
+        "name": "Git",
+        "level": "65%"
       }
     ]
   },
-  "portfolio":{
+  "portfolio": {
     "projects": [
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template.",
-        "image":"website.png",
-        "url":"https://github.com/JWStarkie/JWStarkie.github.io"
+        "title": "Resume Website",
+        "category": "A React based resume website template.",
+        "image": "website.png",
+        "url": "https://github.com/JWStarkie/JWStarkie.github.io"
       },
       {
-        "title":"Learn My C-AR",
-        "category":"Final year augmented reality mobile applicatino with ML and AR.",
-        "image":"learnmycar.png",
-        "url":"https://github.com/JWStarkie/LearnMYCarApplication"
+        "title": "Learn My C-AR",
+        "category": "Final year augmented reality mobile applicatino with ML and AR.",
+        "image": "learnmycar.png",
+        "url": "https://github.com/JWStarkie/LearnMYCarApplication"
       },
       {
-        "title":"Azure Purview Accelerator",
-        "category":"Infrastructure as code project to deploy a demo environment with Azure resources and sample data. PowerShell driven.",
-        "image":"powershell.png",
-        "url":"https://github.com/JWStarkie/PurviewAccelerator"
+        "title": "Azure Purview Accelerator",
+        "category": "Infrastructure as code project to deploy a demo environment with Azure resources and sample data. PowerShell driven.",
+        "image": "powershell.png",
+        "url": "https://github.com/JWStarkie/PurviewAccelerator"
       },
       {
-        "title":"Excel to PDF VBA",
-        "category":"Automating the creation of PDF files from rows in an Excel workbook.",
-        "image":"excel.png",
-        "url":"https://github.com/JWStarkie/Excel-to-Word-VBA"
+        "title": "Excel to PDF VBA",
+        "category": "Automating the creation of PDF files from rows in an Excel workbook.",
+        "image": "excel.png",
+        "url": "https://github.com/JWStarkie/Excel-to-Word-VBA"
       },
       {
-        "title":"Azure Purview Demo (Collaboration)",
-        "category":"Infrastructure as code project to deploy a demo environment with Azure resources and sample data. Bicep driven.",
-        "image":"bicep.png",
-        "url":"https://github.com/JWStarkie/purviewdemo"
+        "title": "Azure Purview Demo (Collaboration)",
+        "category": "Infrastructure as code project to deploy a demo environment with Azure resources and sample data. Bicep driven.",
+        "image": "bicep.png",
+        "url": "https://github.com/JWStarkie/purviewdemo"
       }
     ]
   }

@@ -1,10 +1,11 @@
 import React, { Component } from "react";
-import Posts from "./blogData.json";
-import { Fade, Slide } from "react-reveal";
-import Blog from "./Blog";
+// import Posts from "./blogData.json";
+// import { Fade, Slide } from "react-reveal";
+import { Fade } from "react-reveal";
+// import Blog from "./Blog";
 
 class Contact extends Component {
-    render() {
+  render() {
     if (!this.props.data) return null;
 
     const message = this.props.data.contactmessage;
@@ -14,10 +15,8 @@ class Contact extends Component {
         <Fade bottom duration={1000}>
           <div className="row section-head">
             <div className="two columns header-col">
-              <h1>
-              </h1>
+              <h1> </h1>
             </div>
-
             <div className="ten columns collapsed">
               <span className="getintouch">Get In Touch.</span>
               <p className="lead">{message}</p>
@@ -26,7 +25,7 @@ class Contact extends Component {
         </Fade>
 
         <div className="row">
-          <Slide left duration={1000}>
+          {/* <Slide left duration={1000}>
             <div className="eight columns">
               <form action="" method="post" id="contactForm" name="contactForm">
                 <fieldset>
@@ -97,20 +96,20 @@ class Contact extends Component {
                 <br />
               </div>
             </div>
-          </Slide>
+          </Slide> */}
 
-          <Slide right duration={1000}>
+          {/* <Slide right duration={1000}>
             <aside className="four columns footer-widgets">
               <div className="widget widget_tweets">
                 <h4 className="widget-title">Latest Blog Posts</h4>
                 <ul id="twitter">
                   {Posts.posts.slice(0, 3).map((item, i) => (
-                  <Blog data={item} />
+                    <Blog data={item} />
                   ))}
                 </ul>
               </div>
             </aside>
-          </Slide>
+          </Slide> */}
         </div>
       </section>
     );
