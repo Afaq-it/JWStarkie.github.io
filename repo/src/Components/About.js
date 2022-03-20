@@ -37,7 +37,7 @@ class About extends Component {
                   </p>
                 </div>
 
-                <Link to="/cv" target="_blank">
+                <Link to="cv" target="_blank">
                   <div className="columns download">
                     <p className="button">
                       <i className="fa fa-external-link" />

@@ -38,7 +38,7 @@ class App extends Component {
       <div className="App">
         <Routes>
           <Route path="/" element={<Home data={this.state.resumeData} />} />
-          <Route path="/cv" element={<PDF />} />
+          <Route path="cv" element={<PDF />} />
         </Routes>
       </div>
     );
