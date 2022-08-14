@@ -69,6 +69,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
+  font-family: "Raleway", sans-serif;
   position: fixed;
   top: 0;
   left: 0;
@@ -152,9 +153,10 @@ h6 {
   margin: 0;
   padding: 0;
   list-style: none;
+  font-family: "Raleway", sans-serif;
 }
 
-.nav-menu>ul>li {
+.nav-menu > ul > li {
   position: relative;
   white-space: nowrap;
 }
@@ -168,6 +170,7 @@ h6 {
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
+  letter-spacing: 1px;
 }
 
 .nav-menu a i,
@@ -175,21 +178,24 @@ h6 {
   font-size: 24px;
   padding-right: 8px;
   color: #6f7180;
+  letter-spacing: 1px;
 }
 
 .nav-menu a:hover,
 .nav-menu .active,
 .nav-menu .active:focus,
-.nav-menu li:hover>a {
+.nav-menu li:hover > a {
   text-decoration: none;
   color: #fff;
+  letter-spacing: 1px;
 }
 
 .nav-menu a:hover i,
 .nav-menu .active i,
 .nav-menu .active:focus i,
-.nav-menu li:hover>a i {
+.nav-menu li:hover > a i {
   color: #149ddd;
+  letter-spacing: 1px;
 }
 
 /* Mobile Navigation */
@@ -228,7 +234,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/front_cover_image/pink_aligned.png") top center;
   background-size: cover;
 }
 
@@ -246,7 +252,14 @@ h6 {
 #hero .hero-container {
   position: relative;
   z-index: 2;
-  min-width: 300px;
+  min-width: 400px;
+  align-self: flex-end;
+  /* IF I WANT THE TITLE TO BE CENTRED
+  position: absolute;
+  left: 50%; */
+  /* IF I WANT TO REVERT BACK TO HAVE TITLE AND TEXT-TYPE IN ONE DIV
+  position: absolute;
+  right: 0px; */
 }
 
 #hero h1 {
@@ -333,6 +346,12 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about,
+.facts,
+.skills {
+  padding: 25px !important;
+}
+
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -598,7 +617,7 @@ section {
   background: rgba(20, 157, 221, 0.95);
 }
 
-.portfolio .portfolio-wrap .portfolio-links a+a {
+.portfolio .portfolio-wrap .portfolio-links a + a {
   border-left: 1px solid #37b3ed;
 }
 
@@ -631,7 +650,10 @@ section {
   position: relative;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -639,7 +661,10 @@ section {
   border: 1px solid #149ddd;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet-active {
   background-color: #149ddd;
 }
 
@@ -662,7 +687,7 @@ section {
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.portfolio-details .portfolio-info ul li + li {
   margin-top: 10px;
 }
 
@@ -933,7 +958,7 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br+br {
+.contact .php-email-form .error-message br + br {
   margin-top: 25px;
 }
 
@@ -989,7 +1014,7 @@ section {
   padding: 10px 15px;
 }
 
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form button[type="submit"] {
   background: #149ddd;
   border: 0;
   padding: 10px 24px;
@@ -998,7 +1023,7 @@ section {
   border-radius: 4px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contact .php-email-form button[type="submit"]:hover {
   background: #37b3ed;
 }
 
@@ -1044,11 +1069,11 @@ section {
   font-size: 15px;
 }
 
-.breadcrumbs ol li+li {
+.breadcrumbs ol li + li {
   padding-left: 10px;
 }
 
-.breadcrumbs ol li+li::before {
+.breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
   color: #0e2442;
@@ -1076,10 +1101,6 @@ section {
   padding: 15px;
   color: #f4f6fd;
   font-size: 14px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 300px;
   z-index: 9999;
   background: #040b14;
 }
